@@ -1,6 +1,6 @@
 FROM node:alpine
 
-RUN apk add libreoffice ffmpeg imagemagick tesseract-ocr
+RUN apk add libreoffice ffmpeg imagemagick tesseract-ocr cabextract
 
 
 RUN apk add msttcorefonts-installer && \
